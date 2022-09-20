@@ -1,0 +1,37 @@
+.button{
+    display: inherit;
+    background-color:lightskyblue;
+    border-radius: 8px;
+    border-style: none; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+#buttonbar{
+    display: flex;
+    flex-direction: row;
+    height: 12em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mainparagraph{
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+    font-stretch: expanded;
+    color:lightskyblue;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+html{
+    background-color:rgb(251, 215, 220);
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
