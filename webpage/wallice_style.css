@@ -41,13 +41,18 @@
 }
 
 #bulletpoints{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: 500;
 }
 
 #funfacts{
     padding-left: 300px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-color: lightskyblue;
+    border-width: 5px;
+    border-style: dotted;
     display: flex;
     flex-direction: column;
     align-content: center;
