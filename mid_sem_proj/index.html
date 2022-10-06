@@ -11,7 +11,12 @@
 
         <div id="mainPage">
             <div class="page-col">
-                <div class="rectLeft"></div>
+
+                <div class = "overlay">
+                    <div class="rectLeft"></div>
+                    <img id="pokeImage" src>
+                </div>
+                
 
                 <button id="nameButton">nameButton</button>
 
@@ -19,21 +24,37 @@
                     Types
                 </header>
 
-                <button class="typeButtons"> type </button>
+                <div id="typeButtons"> </div>
                 
                 <div id="leftButtons">
-                        <button class="arrowButton"> < </button>
-                        <button class="arrowButton"> > </button> 
+                        <button id="arrowButton1"> < </button>
+                        <button id="arrowButton2"> > </button> 
                 </div>
             </div>
 
             <div class="page-col">
-                <header id="info"> Info </header>
-                <div class="rectRight"></div>
+                <header id="rightText"> moves </header>
+
+                <div class = "rightOverlay">
+                    <div class="rectRight"></div>
+
+                    <div id="info">
+                        <div id="height"></div>
+                        <div id="weight"></div>
+                        <div id="hp"></div>
+                        <div id="attack"></div>
+                        <div id="defense"></div>
+                        <div id="special_attack"></div>
+                        <div id="special_defense"></div>
+                        <div id="speed"></div>
+                    </div>
+
+                    <div id="moves"></div>
+                </div>
                 
                 <div id="rightButtons">
-                    <button class="infoButton"> Info </button>
-                    <button class="movesButton"> Moves </button>
+                    <button id="infoButton"> Info </button>
+                    <button id="movesButton"> Moves </button>
                 </div>
                 
             </div>
