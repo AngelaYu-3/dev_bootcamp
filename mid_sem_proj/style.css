@@ -19,20 +19,19 @@
     left: 0;
 }
 
-#infoButton{
-    text-align: center;
-    font-size: 15px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin: 25px 35px;
-    border-radius: 10px;
-    border-width: 0px;
-    background-color: lightgreen
+.rightOverlay{
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.rightOverlay{
+.leftButtons{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.overlay{
     position: relative;
     top: 0;
     left: 0;
@@ -44,6 +43,19 @@
     position: absolute;
     top: 30px;
     left: 30px;
+}
+
+#infoButton{
+    text-align: center;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 25px 35px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: lightgreen
 }
 
 #moves{
@@ -75,13 +87,8 @@
     border-radius: 5px;
     border-color: white;
     padding: 5px 5px;
+    width: 60px;
     font-size: 15px;
-}
-
-.leftButtons{
-    display: flex;
-    flex-direction: row;
-
 }
 
 #arrowButton1{
@@ -102,12 +109,6 @@
     border-radius: 10px;
     border-width: 0px;
     background-color: lightgray;
-}
-
-.overlay{
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 #pokeImage{
