@@ -9,7 +9,6 @@ function PageButton() {
         <div className= "container">
             <div style={{paddingTop: "300px"}}>
             <button style={{width: "100px", alignContent: "middle", height: "100px"}}>Next Ten</button>
-            
             </div>
         </div>
     );
